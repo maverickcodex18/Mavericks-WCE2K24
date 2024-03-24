@@ -1,0 +1,17 @@
+#options{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding:5%;
+    gap:2%;
+}
+.disable{
+    pointer-events: none;
+    opacity: 0.5;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: red;
+}
